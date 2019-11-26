@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker { image 'lts' } }
+    agent { docker { image 'node:lts' } }
     stages {
         stage('build') {
             steps {
