@@ -1,0 +1,30 @@
+{
+  "name": "jenkins-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluedusk/jenkins-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluedusk/jenkins-test/issues"
+  },
+  "homepage": "https://github.com/bluedusk/jenkins-test#readme",
+  "dependencies": {
+    "@types/jest": "^24.0.23",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "nodemon": "^2.0.1",
+    "supertest": "^4.0.2"
+  }
+}
