@@ -10,7 +10,7 @@ pipeline {
             steps {
                 echo "User is ${ME}"
                 sh 'npm --version'
-                sh 'ls -na'
+                sh 'npm run build'
             }
         }
     } 
