@@ -1,3 +1,8 @@
+const manifest = require("../build/asset-manifest.json");
+
 (function() {
-  throw new Error("will this fail");
+  console.log(manifest);
+  if (!manifest["main.js"] || !manifest["index.html"]) {
+    throw new Error("Manifest file format is not correct.");
+  }
 })();
