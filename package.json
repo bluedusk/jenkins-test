@@ -5,7 +5,9 @@
   "main": "app.js",
   "scripts": {
     "test": "jest",
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "build": "npm --version",
+    "postbuild": "node ./scripts/check-fail.js"
   },
   "repository": {
     "type": "git",
